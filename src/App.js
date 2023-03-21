@@ -10,8 +10,8 @@ import Navb from './component/Navbar';
 import About from './component/About';
 import { GetResume } from './component/GetResume';
 import Details from './component/Details';
-import Form from './Form';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import Form from './component/Form';
+import { Redirect, Route, Switch, } from 'react-router-dom';
 import Alancontainer from './component/Alancontainer';
 
 function App() {
