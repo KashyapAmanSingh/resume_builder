@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Resume Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Resume Builder is a software tool designed to help job seekers create professional resumes quickly and easily. It offers a wide range of customizable templates, which job seekers can use to create resumes that are tailored to their specific needs and goals. The tool's user-friendly interface and intuitive design make it easy for job seekers to enter their information and format it in a clear and organized way.
 
-## Available Scripts
+Resume Builder also includes features such as spell-checking, formatting suggestions, and the ability to save and edit resumes at any time. This makes it easy for job seekers to update their resumes as they gain new skills and experience, or as their career goals evolve.
 
-In the project directory, you can run:
+In addition, Resume Builder offers tips and advice on how to write effective resumes, including what information to include and how to highlight key achievements and skills. These resources can be especially helpful for job seekers who are new to the job market or who are looking to switch careers.
 
-### `npm start`
+Overall, It is a valuable tool for anyone looking to create a professional, polished resume quickly and easily. Its customizable templates, user-friendly interface, and helpful resources make it a top choice for job seekers of all levels of experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+	![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-### `npm test`
+# Contributions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It aims to simplify and guide the way beginners make their first contribution. If you are looking to make your first contribution, follow the steps below.
 
-### `npm run build`
+**If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**1. Fork this repository**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**2. Clone the repository**
 
-### `npm run eject`
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open a terminal and run the following git command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+git clone "url you just copied"
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For example:
 
-## Learn More
+```
+git clone https://github.com/this-is-you/resume_builder.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**3. Create a branch**
 
-### Code Splitting
+Change to the repository directory on your computer (if you are not already there or if it is required):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+cd resume_builder
+```
 
-### Analyzing the Bundle Size
+Now create a branch using the `git switch` command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+git switch -c your-new-branch-name
+```
 
-### Making a Progressive Web App
+**4. Make necessary changes and commit those changes**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Add those changes to the branch you just created using the `git add` command:
 
-### Advanced Configuration
+```
+git add .
+```
+Now commit those changes using the `git commit` command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+git commit -m "Describe"
+```
 
-### Deployment
+replacing `Describe` with what you have added or changed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**5. Push changes to GitHub**
 
-### `npm run build` fails to minify
+Push your changes using the command `git push`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+git push -u origin your-branch-name
+```
+
+replacing `your-branch-name` with the name of the branch you created earlier.
+
+**6. Submit your changes for review**
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+
+Now submit the pull request.
+
+Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
